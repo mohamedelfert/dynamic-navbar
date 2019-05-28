@@ -1,0 +1,64 @@
+#page{
+	width:1000px;
+	height:auto;
+	margin:50px auto;
+}
+#page ul{
+	width:auto;
+	position:absolute;
+	background-color:#e8dada;
+	border:1px solid #938686;
+	border-bottom:3px solid #c6c4c4;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+#page ul li{
+	float:left;
+	height:40x;
+	width:200px;
+	padding:0;
+	margin:0;
+}
+#page ul li a{
+	display:block;
+	padding:12px 24px;
+	text-decoration:none;
+	color:#747474;
+	font-weight:bold;
+}
+#page ul li a:hover{
+	background-color:#85bfad;
+	color:#fff;
+}
+#page ul li ul{
+	list-style:none;
+	background-color:#edeaea;
+	width:200px;
+	padding:0;
+	margin:0;
+	border:1px solid #938686;
+	border-bottom:3px solid #c6c4c4;
+	position:absolute;
+	display:none;
+}
+#page ul li ul li{
+	width:100%;
+	float:none;
+}
+#page ul li:hover ul{
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
